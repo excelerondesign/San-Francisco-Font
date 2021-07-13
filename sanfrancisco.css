@@ -6,6 +6,7 @@
 @font-face {
   font-family: "San Francisco";
   font-weight: 100;
+  font-display: swap;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
 }
 
@@ -13,6 +14,7 @@
 @font-face {
   font-family: "San Francisco";
   font-weight: 200;
+  font-display: swap;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
 }
 
@@ -20,6 +22,7 @@
 @font-face {
   font-family: "San Francisco";
   font-weight: 400;
+  font-display: swap;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
@@ -27,6 +30,7 @@
 @font-face {
   font-family: "San Francisco";
   font-weight: 500;
+  font-display: swap;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
 }
 
@@ -34,6 +38,7 @@
 @font-face {
   font-family: "San Francisco";
   font-weight: 600;
+  font-display: swap;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
 
@@ -41,16 +46,6 @@
 @font-face {
   font-family: "San Francisco";
   font-weight: 700;
+  font-display: swap;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
-
-* {
-    font-family: "San Francisco"   
-}
-
-h1 { font-weight: 700; }
-h2 { font-weight: 600; }
-h3 { font-weight: 500; }
-p { font-weight: 400; }
-p.thin { font-weight: 200; }
-p.ultralight { font-weight: 100; }
